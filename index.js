@@ -3,12 +3,12 @@ const client = new Client({ intents: [3276799] });
 const config = require("./config.json");
 
 const jokes = [
-  "Why doesn't Roksie want to do voice chat? Because she's always in the mood to talk, not play.",
-  "They say Roksi doesn't like to talk while gaming, but we all know she's just too busy thinking about me.",
-  "Why does Roksi never like to do voice chat while gaming? Because she's too busy being horny on main!",
-  "Roksi prefers to keep it PG during gaming sessions, but when the game's over, it's time to get naughty!",
-  "They say Roksi's too shy to talk while gaming, but I know her dirty little secrets!",
-  "Roksi's got a heart of gold, but she's also got a dirty mind that's always in the gutter!",
+  "Joke 1.",
+  "Joke 2.",
+  "Joke 3.",
+  "Joke 4.",
+  "Joke 5.",
+  "Joke 6.",
 ];
 
 function calculateLove(tag1, tag2) {
@@ -18,7 +18,7 @@ function calculateLove(tag1, tag2) {
 }
 
 client.on("messageCreate", async (message) => {
-  if (message.content.toLowerCase() === "hi") {
+  if (message.content.toLowerCase() === "asd") {
     const response = "I don't want vc";
     message.channel.send(response);
   }

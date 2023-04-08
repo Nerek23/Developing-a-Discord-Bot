@@ -34,7 +34,7 @@ client.on("messageCreate", async (message) => {
     const loveMessage = calculateLove(tag1, tag2);
     message.channel.send(loveMessage);
   }
-  if (message.content.toLowerCase() === "roksi") {
+  if (message.content.toLowerCase() === "sadsd") {
     const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
     message.channel.send(randomJoke);
   }
